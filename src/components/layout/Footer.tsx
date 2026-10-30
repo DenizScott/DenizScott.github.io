@@ -1,6 +1,6 @@
 import { Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { LinkedinIcon } from '../ui/Icons.tsx';
+import { GithubIcon, LinkedinIcon } from '../ui/Icons.tsx';
 import { site } from '../../data/site.ts';
 import { useI18n } from '../../i18n/context.ts';
 import { format } from '../../locales/index.ts';
@@ -51,6 +51,19 @@ export function Footer() {
               <LinkedinIcon aria-hidden className="size-[1.125rem]" />
             </a>
           </li>
+          {site.github && (
+            <li>
+              <a
+                href={site.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${t.contact.githubLabel} ${t.a11y.opensInNewTab}`}
+                className="glass inline-flex size-11 items-center justify-center rounded-full text-muted transition-colors hover:text-fg"
+              >
+                <GithubIcon aria-hidden className="size-[1.125rem]" />
+              </a>
+            </li>
+          )}
         </ul>
       </div>
       <div className="border-t border-line">

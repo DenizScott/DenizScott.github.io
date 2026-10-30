@@ -7,6 +7,5 @@ dist
 !.env.example
 .DS_Store
 test_screenshots
-# Private CVs contain a home address and phone number — never commit or publish them.
-references/*.pdf
-references/*.docx
+# Private CVs and reference files contain sensitive home address and phone numbers — never commit.
+references/

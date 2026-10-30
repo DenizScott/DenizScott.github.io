@@ -41,6 +41,9 @@ export const media: Record<string, MediaAsset> = {
 
   'omni/weather-panel': single('projects/omni/weather-panel.webp', 475, 388),
 
+  'ludenos/hero': single('projects/ludenos/hero.webp', 1440, 900),
+  'ludenos/feed': single('projects/ludenos/feed.webp', 1440, 900),
+
   'cyber-rebirth/back': character('back'),
   'cyber-rebirth/kod-kirici': character('kod-kirici'),
   'cyber-rebirth/rock-yildizi': character('rock-yildizi'),

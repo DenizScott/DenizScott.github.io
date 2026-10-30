@@ -9,27 +9,27 @@ export const site = {
   shortName: 'Coşkun Deniz Karcı',
 
   /**
-   * PLACEHOLDER — the real production domain is not known yet.
-   * Override at build time with the VITE_SITE_URL environment variable (see .env.example)
-   * or replace the value here. No trailing slash.
+   * Production domain used for canonical, og:url, og:image, hreflang, sitemap, and JSON-LD.
+   * Can also be overridden at build time with VITE_SITE_URL. No trailing slash.
    */
-  siteUrl: 'https://example.com',
+  siteUrl: 'https://denizscott.github.io',
 
   /** Public contact details taken from the reference CV. Home address and phone are intentionally NOT published. */
   email: 'coskundenizkarci@gmail.com',
   linkedin: 'https://www.linkedin.com/in/coskundenizkarci/',
-  /** No GitHub account is listed in the CV. Set a URL here to show it in the contact section and footer. */
-  github: null as string | null,
+  /** GitHub account shown in the contact section, header, and footer. */
+  github: 'https://github.com/DenizScott' as string | null,
 
   themeColor: '#0B1020',
 
   /**
-   * Public resume PDFs, per language. `null` = no public-safe PDF exists yet.
-   * The reference CVs contain a home address and phone number, so they are NOT published.
-   * To publish: export a copy without those details, place it in /public/resume/
-   * and set the path here, e.g. '/resume/Deniz-Karci-CV-EN.pdf'.
+   * Public-safe resume PDFs, per language.
+   * Home address and phone number are removed for privacy protection.
    */
-  resumes: { en: null, tr: null } as Record<Lang, string | null>,
+  resumes: {
+    en: '/cv/coskun-deniz-karci-cv-en.pdf',
+    tr: '/cv/coskun-deniz-karci-cv-tr.pdf',
+  } as Record<Lang, string | null>,
 } as const;
 
 export const sectionIds = ['home', 'about', 'projects', 'expertise', 'contact'] as const;

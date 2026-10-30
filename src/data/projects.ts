@@ -388,41 +388,65 @@ export const projects: Project[] = [
     title: 'LudenOS',
     category: { en: 'Web Platform / Gaming', tr: 'Web Platformu / Oyun' },
     summary: {
-      en: 'A web platform for gamers, designed and developed independently from scratch with AI-assisted development and vibe coding.',
-      tr: 'Yapay zekâ destekli geliştirme ve vibe coding yöntemleriyle sıfırdan, bağımsız olarak tasarlanıp geliştirilen, oyunculara yönelik bir web platformu.',
+      en: 'An Idea & Prototype Hub for game developers and ludologists, engineered independently with Next.js 14, Prisma ORM, and AI-assisted vibe coding workflows.',
+      tr: 'Oyun geliştiricileri ve ludoloji meraklıları için Next.js 14, Prisma ORM ve yapay zekâ destekli vibe coding akışlarıyla geliştirilen bağımsız fikir ve prototip merkezi.',
     },
-    technologies: [],
-    approach: ['Vibe coding', 'AI-assisted development'],
+    technologies: ['Next.js', 'React', 'TypeScript', 'Prisma ORM', 'PostgreSQL', 'Tailwind CSS'],
+    approach: ['Vibe coding', 'AI-assisted development', 'Claude & LLM Workflows'],
     status: 'independent',
-    cover: { kind: 'placeholder' },
-    gallery: [],
+    cover: { kind: 'image', media: ['ludenos/hero'] },
+    gallery: [
+      {
+        media: 'ludenos/hero',
+        alt: {
+          en: 'LudenOS platform desktop interface showcasing game developer ideas and prototype hub.',
+          tr: 'Oyun geliştirici fikirleri ve prototip merkezini sergileyen LudenOS platformu masaüstü arayüzü.',
+        },
+        caption: { en: 'LudenOS platform home and navigation', tr: 'LudenOS platform ana sayfası ve navigasyon' },
+      },
+      {
+        media: 'ludenos/feed',
+        alt: {
+          en: 'LudenOS prototype and developer log feed view with community updates.',
+          tr: 'Topluluk güncellemeleri ve geliştirici günlüklerini içeren LudenOS prototip akışı.',
+        },
+        caption: { en: 'Community ideas and build feed', tr: 'Topluluk fikirleri ve geliştirme akışı' },
+      },
+    ],
     video: null,
-    links: {},
+    links: {
+      live: 'https://project-ludenx-1.vercel.app',
+      github: 'https://github.com/DenizScott/project_ludenx_1',
+    },
     detail: {
       en: {
-        tagline: 'A gamer-focused web platform, built independently.',
+        tagline: 'An Idea & Prototype Hub for game developers, built independently with AI assistance.',
         overview: [
-          'LudenOS is a website and platform for gamers that I designed and developed independently from scratch, using AI-assisted development and vibe coding methods actively throughout the process.',
+          'LudenOS takes its name from "Ludology" (the study of games) and the concept of an operating system ("OS"). It is a dedicated Idea & Prototype Hub designed for indie game developers, game designers, and passionate players to share build notes, early-stage ideas, and collect community feedback.',
+          'Built independently using modern AI-assisted engineering and vibe coding methodologies, the platform combines a robust full-stack architecture with Next.js 14, React 18, Prisma ORM, and PostgreSQL.',
         ],
         role: [
-          'Independent design and development, end to end',
-          'Direction of AI-assisted development and vibe coding workflows',
+          'Full-stack architecture and frontend/backend engineering',
+          'AI-assisted workflow orchestration with Claude and LLM systems',
+          'UI/UX design, database schema modeling with Prisma ORM, and responsive layout implementation',
         ],
         outcome: [
-          'Screenshots, the technology stack, a live demo link and further detail have not been added to this portfolio yet. Nothing beyond the description above is claimed.',
+          'Deployed live as a functional web application with live demo and open-source codebase available on GitHub.',
         ],
       },
       tr: {
-        tagline: 'Oyunculara yönelik, bağımsız geliştirilen bir web platformu.',
+        tagline: 'Oyun geliştiricileri için fikir ve prototip merkezi; yapay zekâ desteğiyle bağımsız inşa edildi.',
         overview: [
-          'LudenOS; oyunculara yönelik, sıfırdan ve bağımsız olarak tasarlayıp geliştirdiğim bir web sitesi ve platformudur. Süreç boyunca yapay zekâ destekli geliştirme ve vibe coding yöntemlerini aktif biçimde kullandım.',
+          'LudenOS, adını oyun bilimi anlamına gelen "Ludology" teriminden ve kapsamlı bir merkez işletim sistemi ("OS") kavramından alır. Indie oyun yapımcıları, oyun tasarımcıları ve tutkulu oyuncular için geliştirme günlüklerini, prototip aşamalarını ve erken aşama fikirlerini paylaşabilecekleri bir sosyal fikir ve prototip merkezidir.',
+          'Süreç boyunca modern yapay zekâ destekli mühendislik ve vibe coding yöntemleri aktif biçimde kullanılarak Next.js 14, React 18, Prisma ORM ve PostgreSQL altyapısıyla sıfırdan geliştirilmiştir.',
         ],
         role: [
-          'Baştan sona bağımsız tasarım ve geliştirme',
-          'Yapay zekâ destekli geliştirme ve vibe coding iş akışlarının yönlendirilmesi',
+          'Uçtan uca full-stack mimari, arayüz ve veritabanı geliştirme',
+          'Claude ve LLM sistemleriyle yapay zekâ destekli iş akışlarının yönetimi',
+          'Prisma ORM ile veri modelleme, UI/UX tasarımı ve responsive arayüz kodlaması',
         ],
         outcome: [
-          'Ekran görüntüleri, teknoloji yığını, canlı demo bağlantısı ve ek ayrıntılar bu portfolyoya henüz eklenmedi. Yukarıdaki açıklamanın ötesinde bir iddia yoktur.',
+          'Çalışır durumda canlıya alınmış web uygulaması; canlı demo ve kaynak kod deposu GitHub üzerinde incelenebilir.',
         ],
       },
     },
