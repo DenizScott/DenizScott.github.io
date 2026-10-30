@@ -1,11 +1,11 @@
 /** English dictionary. This file defines the shape every other language must follow. */
 export const en = {
   meta: {
-    homeTitle: 'Deniz Karcı — AI, Software & Game Development Portfolio',
+    homeTitle: 'Coşkun Deniz Karcı — AI, Software & Game Development Portfolio',
     homeDescription:
       'Portfolio of Coşkun Deniz Karcı: Digital Game Design student and independent creator building software, games and AI-assisted digital products. Projects: Underwake, Omni, LudenOS, Cyber Rebirth.',
-    projectTitle: '{project} — Project | Deniz Karcı',
-    notFoundTitle: 'Page not found | Deniz Karcı',
+    projectTitle: '{project} — Project | Coşkun Deniz Karcı',
+    notFoundTitle: 'Page not found | Coşkun Deniz Karcı',
     notFoundDescription: 'This page does not exist. Return to the portfolio home page.',
     jobTitle: 'Digital Game Design student & independent AI application developer',
     ogLocale: 'en_US',
@@ -37,11 +37,11 @@ export const en = {
     eyebrow: 'Portfolio · Digital Game Design · AI Development',
     headline: 'Building digital experiences through AI, code & design.',
     headlineAccent: 'AI, code & design.',
-    sub: 'I\'m Deniz Karcı — a Digital Game Design student and independent creator working across AI-powered development, interactive experiences, software and visual storytelling.',
+    sub: 'I\'m Coşkun Deniz Karcı — a Digital Game Design student and independent creator working across AI-powered development, interactive experiences, software and visual storytelling.',
     ctaWork: 'Explore My Work',
     ctaContact: 'Get in Touch',
     resumeLink: 'View Resume',
-    photoAlt: 'Portrait of Deniz Karcı',
+    photoAlt: 'Portrait of Coşkun Deniz Karcı',
     tags: ['AI Development', 'Game Design', 'Creative Technology', 'LLM Workflows'],
     scroll: 'Scroll',
   },
@@ -152,7 +152,7 @@ export const en = {
   },
   footer: {
     rights: '© {year} Coşkun Deniz Karcı.',
-    built: 'Designed and built by Deniz Karcı with React, TypeScript and Tailwind CSS.',
+    built: 'Designed and built by Coşkun Deniz Karcı with React, TypeScript and Tailwind CSS.',
   },
   notFound: {
     eyebrow: 'Error 404',

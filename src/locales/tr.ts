@@ -2,11 +2,11 @@ import type { Dictionary } from './types.ts';
 
 export const tr: Dictionary = {
   meta: {
-    homeTitle: 'Deniz Karcı — Yapay Zekâ, Yazılım ve Oyun Geliştirme Portfolyosu',
+    homeTitle: 'Coşkun Deniz Karcı — Yapay Zekâ, Yazılım ve Oyun Geliştirme Portfolyosu',
     homeDescription:
       'Coşkun Deniz Karcı\'nın portfolyosu: yazılım, oyun ve yapay zekâ destekli dijital ürünler geliştiren Dijital Oyun Tasarımı öğrencisi ve bağımsız üretici. Projeler: Underwake, Omni, LudenOS, Cyber Rebirth.',
-    projectTitle: '{project} — Proje | Deniz Karcı',
-    notFoundTitle: 'Sayfa bulunamadı | Deniz Karcı',
+    projectTitle: '{project} — Proje | Coşkun Deniz Karcı',
+    notFoundTitle: 'Sayfa bulunamadı | Coşkun Deniz Karcı',
     notFoundDescription: 'Bu sayfa mevcut değil. Portfolyo ana sayfasına dönün.',
     jobTitle: 'Dijital Oyun Tasarımı öğrencisi ve bağımsız yapay zekâ uygulama geliştiricisi',
     ogLocale: 'tr_TR',
@@ -38,11 +38,11 @@ export const tr: Dictionary = {
     eyebrow: 'Portfolyo · Dijital Oyun Tasarımı · Yapay Zekâ Geliştirme',
     headline: 'Yapay zekâ, kod ve tasarımla dijital deneyimler kuruyorum.',
     headlineAccent: 'Yapay zekâ, kod ve tasarımla',
-    sub: 'Ben Deniz Karcı — Dijital Oyun Tasarımı öğrencisi ve bağımsız bir üreticiyim. Yapay zekâ destekli geliştirme, interaktif deneyimler, yazılım ve görsel hikâye anlatımı üzerine çalışıyorum.',
+    sub: 'Ben Coşkun Deniz Karcı — Dijital Oyun Tasarımı öğrencisi ve bağımsız bir üreticiyim. Yapay zekâ destekli geliştirme, interaktif deneyimler, yazılım ve görsel hikâye anlatımı üzerine çalışıyorum.',
     ctaWork: 'Çalışmalarımı Keşfet',
     ctaContact: 'İletişime Geç',
     resumeLink: 'Özgeçmişi Gör',
-    photoAlt: 'Deniz Karcı portresi',
+    photoAlt: 'Coşkun Deniz Karcı portresi',
     tags: ['Yapay Zekâ Geliştirme', 'Oyun Tasarımı', 'Yaratıcı Teknoloji', 'LLM İş Akışları'],
     scroll: 'Kaydır',
   },
@@ -153,7 +153,7 @@ export const tr: Dictionary = {
   },
   footer: {
     rights: '© {year} Coşkun Deniz Karcı.',
-    built: 'Deniz Karcı tarafından React, TypeScript ve Tailwind CSS ile tasarlanıp geliştirildi.',
+    built: 'Coşkun Deniz Karcı tarafından React, TypeScript ve Tailwind CSS ile tasarlanıp geliştirildi.',
   },
   notFound: {
     eyebrow: 'Hata 404',

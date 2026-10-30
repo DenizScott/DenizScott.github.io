@@ -6,7 +6,7 @@ import type { Lang } from './types.ts';
  */
 export const site = {
   name: 'Coşkun Deniz Karcı',
-  shortName: 'Deniz Karcı',
+  shortName: 'Coşkun Deniz Karcı',
 
   /**
    * PLACEHOLDER — the real production domain is not known yet.
