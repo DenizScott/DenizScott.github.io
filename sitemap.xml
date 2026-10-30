@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en" />
+  </url>
+  <url>
+    <loc>https://example.com/tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en" />
+  </url>
+  <url>
+    <loc>https://example.com/en/projects/underwake</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/underwake" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/underwake" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/underwake" />
+  </url>
+  <url>
+    <loc>https://example.com/tr/projects/underwake</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/underwake" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/underwake" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/underwake" />
+  </url>
+  <url>
+    <loc>https://example.com/en/projects/omni</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/omni" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/omni" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/omni" />
+  </url>
+  <url>
+    <loc>https://example.com/tr/projects/omni</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/omni" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/omni" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/omni" />
+  </url>
+  <url>
+    <loc>https://example.com/en/projects/ludenos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/ludenos" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/ludenos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/ludenos" />
+  </url>
+  <url>
+    <loc>https://example.com/tr/projects/ludenos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/ludenos" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/ludenos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/ludenos" />
+  </url>
+  <url>
+    <loc>https://example.com/en/projects/cyber-rebirth</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/cyber-rebirth" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/cyber-rebirth" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/cyber-rebirth" />
+  </url>
+  <url>
+    <loc>https://example.com/tr/projects/cyber-rebirth</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/projects/cyber-rebirth" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/projects/cyber-rebirth" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/en/projects/cyber-rebirth" />
+  </url>
+</urlset>
