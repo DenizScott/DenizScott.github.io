@@ -1,0 +1,12 @@
+node_modules
+dist
+.wrangler
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store
+test_screenshots
+# Private CVs contain a home address and phone number — never commit or publish them.
+references/*.pdf
+references/*.docx
