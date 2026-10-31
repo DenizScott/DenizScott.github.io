@@ -23,12 +23,12 @@ export const site = {
   themeColor: '#0B1020',
 
   /**
-   * Public-safe resume PDFs, per language.
-   * Home address and phone number are removed for privacy protection.
+   * Public resume PDFs, per language.
+   * Linked directly to the owner's CV documents.
    */
   resumes: {
-    en: '/cv/coskun-deniz-karci-cv-en.pdf',
-    tr: '/cv/coskun-deniz-karci-cv-tr.pdf',
+    en: '/cv/Coskun_Deniz_Karci_CV_EN.pdf',
+    tr: '/cv/Coskun_Deniz_Karci_CV_TR.pdf',
   } as Record<Lang, string | null>,
 } as const;
 
