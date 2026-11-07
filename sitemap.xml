@@ -49,6 +49,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://denizscott.github.io/en/projects/ludenos" />
   </url>
   <url>
+    <loc>https://denizscott.github.io/en/projects/pagehut</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://denizscott.github.io/en/projects/pagehut" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://denizscott.github.io/tr/projects/pagehut" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://denizscott.github.io/en/projects/pagehut" />
+  </url>
+  <url>
+    <loc>https://denizscott.github.io/tr/projects/pagehut</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://denizscott.github.io/en/projects/pagehut" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://denizscott.github.io/tr/projects/pagehut" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://denizscott.github.io/en/projects/pagehut" />
+  </url>
+  <url>
     <loc>https://denizscott.github.io/en/projects/cyber-rebirth</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://denizscott.github.io/en/projects/cyber-rebirth" />
     <xhtml:link rel="alternate" hreflang="tr" href="https://denizscott.github.io/tr/projects/cyber-rebirth" />
